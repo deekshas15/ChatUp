@@ -1,0 +1,48 @@
+body {
+  background-color: #e4f9ff;
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+h1{
+  padding-top: 20px;
+  color:#5e6f64;
+}
+.chat-screen{
+  box-shadow: 0 0 20px 8px #b4b4b4;
+  background-color: #fff;
+  margin: 3% 18%;
+  padding: 3% 5%;
+  border-radius: 5%;
+  min-height:500px;
+}
+
+hr{
+  width:50%;
+  text-align: center;
+}
+.message-screen{
+  color:#2bb2bb;
+  font-size: 21px;
+}
+.create input,
+.create textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  color:#5e6f64;
+  font-size: 18px;
+}
+.create button {
+  color: #fff;
+  border: none;
+  margin-left: 93%;
+  margin-top:-5%;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
